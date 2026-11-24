@@ -135,6 +135,47 @@ footer a{color:#CFC8B6;text-decoration:none}
   .hero .copy{padding-top:140px}
   .hero .art svg{object-fit:cover}
 }
+
+@media (max-width:600px){
+  /* hero: text on the night sky, Corniche scene anchored below it, framed on the sun and gold tower */
+  .hero{min-height:0}
+  .hero .copy{padding:128px 22px 330px}
+  .hero h1{font-size:2.55rem}
+  .hero .sub{font-size:.98rem;margin-top:18px}
+  .btns{margin-top:24px}
+  .hero .art{top:auto;height:340px;overflow:hidden}
+  .hero .art svg{position:absolute;bottom:0;height:100%;width:auto;left:50%;transform:translateX(-62%)}
+  .scroll{display:none}
+  .brand img{height:38px}
+  /* tighter rhythm */
+  .statement{padding:64px 0}
+  .persp,.practices,.team,.contact{padding:64px 0}
+  .persp .grid,.contact .grid{gap:36px}
+  .wrap{padding:0 22px}
+  h2{font-size:1.9rem}
+  /* coverage: compact rows, icon beside title */
+  .cards{gap:12px;margin-top:26px}
+  .card{padding:20px 18px 18px 74px;min-height:0}
+  .card svg{position:absolute;left:18px;top:20px;width:38px;height:38px;margin:0}
+  .card .n{font-size:1.3rem;top:14px;right:14px}
+  .card h3{font-size:1.35rem}
+  .card p{font-size:14px;margin-top:4px}
+  .serve{margin-top:26px;font-size:.98rem}
+  /* approach: two columns of compact tiles */
+  .people{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:24px}
+  .person{padding:18px 14px;gap:12px}
+  .mono{width:42px;height:42px}
+  .mono svg{width:20px;height:20px}
+  .person h3{font-size:1.2rem}
+  .person p{font-size:9.5px;letter-spacing:.14em}
+  /* sample brief: flat on small screens */
+  .brief{transform:none}
+  .brief ol{padding:4px 16px}
+  .bhead{padding:14px 16px;font-size:1.15rem}
+  .pri{width:56px;font-size:9px}
+  .cl span{width:56px}
+  .cl a{font-size:1rem}
+}
 </style>
 </head>
 <body>
